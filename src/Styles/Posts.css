@@ -1,0 +1,57 @@
+.nav-container {
+  background-color: #ffb5d3;
+}
+
+.med-update-card {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 16px;
+  width: 900px;
+  padding-left: 5px;
+}
+.post-image-wrapper {
+  position: relative;
+  /* overflow: hidden; */
+}
+.post-image {
+  width: 400px ;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+}
+.post-read-more-comment {
+  position: absolute;
+  color: black;
+  inset: 0;
+  font-size: 24px;
+ font-weight: bold;
+  padding: 1rem;
+  background: rgba(255, 255, 255, .4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post-image-wrapperr:hover > img.blur {
+  filter: blur(5px);
+}
+.post-image-wrapper > .fade {
+  opacity: 0;
+}
+.post-image-wrapper:hover > .fade {
+  opacity: 1;
+}
+.post-content-container {
+  margin: 20px 36px;
+}
+.post-heading {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.updated-date {
+  font-weight: normal;
+  color: dimgrey;
+  font-style: italic;
+  margin-left: 7px;
+}
